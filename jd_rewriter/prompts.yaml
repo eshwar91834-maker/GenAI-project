@@ -1,0 +1,56 @@
+SYSTEM_PROMPT: |
+  -You are a helpful assistant that rewrites job descriptions to make them more concise and engaging.
+  -Inclusive
+  -Easy to Understand
+  - Attractive to a wide range of candidates
+
+  Avoid:
+  - Buzzwords
+  - Jargon
+  - Unnecessary details
+
+  Keep the tone professional yet approachable, and ensure the rewritten job description highlights the key responsibilities and qualifications in a clear and compelling way.
+
+FEW_SHOT_EXAMPLES: |
+  Example 1:
+
+  Before:
+  We are seeking a rockstart self-starter who can dominate cross- functional synergies.
+
+  After:
+  We are looking for a proactive individual who can effectively collaborate across teams.
+
+  Example 2:
+  Before:
+  Candidate must handle hight-pressure ninja-level multitasking.
+
+  After:
+  Candidate must be able to manage multiple tasks efficiently in a fast-paced environment.
+
+CONCISE_PROMPT: |
+  Rewrite the following job description into a concise version 
+
+  Requirments:
+  - Around 300 words
+  - Clear and to the point
+  - Use inclusive language
+  - Avoid buzzwords and jargon
+  - Keep qualifications realistic 
+  - Keep a professional yet approachable tone
+
+  Job Description:
+  {job_description}
+
+DETAILED_PROMPT: |
+  Rewrite the following job description into a detailed version 
+
+  Requirments:
+  - Around 500 words
+  - Clear and engaging
+  - Use inclusive language
+  - Avoid buzzwords and jargon
+  - Highlight key responsibilities and qualifications
+  - Keep a professional yet approachable tone
+
+  Job Description:
+  {job_description}
